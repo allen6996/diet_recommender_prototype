@@ -1,0 +1,18 @@
+# Flutter & Dart
+build/
+.dart_tool/
+.packages
+.pub-cache/
+flutter_app/ios/
+flutter_app/android/
+flutter_app/web/.dart_tool/
+flutter_app/web/build/
+
+# Python
+__pycache__/
+*.pyc
+backend/venv/
+.env
+
+# Others
+*.log

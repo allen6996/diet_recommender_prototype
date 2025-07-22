@@ -1,0 +1,11 @@
+age,gender,weight,height,diabetes,cholesterol,hypertension,goal,diet
+25,M,70,170,0,0,0,Weight Loss,Low Carb Diet
+50,F,80,160,1,1,0,Health Maintenance,Mediterranean Diet
+40,M,90,175,0,1,1,Cholesterol Control,DASH Diet
+35,F,60,165,1,0,0,Diabetes Control,Diabetic Diet
+60,M,95,172,1,1,1,General Health,Balanced Diet
+45,F,68,162,0,0,1,Weight Loss,Low Carb Diet
+32,M,75,180,0,0,0,Weight Gain,High Protein Diet
+55,F,85,158,1,1,0,Cholesterol Control,DASH Diet
+38,M,78,172,0,0,0,Fitness,Mediterranean Diet
+48,F,70,165,1,0,1,Diabetes Control,Diabetic Diet
