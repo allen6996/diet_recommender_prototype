@@ -5,15 +5,23 @@ import numpy as np
 import pickle
 from fastapi.middleware.cors import CORSMiddleware
 
-
 app = FastAPI()
+origins = [
+    "http://localhost:3000",    # react
+    "http://localhost:8080",    # vue
+    "http://127.0.0.1:8000",    # default dev
+    "http://localhost:5000",    # flutter web
+    "http://localhost:4200",    # angular
+    "*"                         # temporarily allow all
+]
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # for dev; later, replace * with your frontend URL
+    allow_origins=origins,
     allow_credentials=True,
-    allow_methods=["*"],  # must include OPTIONS
-    allow_headers=["*"],
+    allow_methods=["*"],         # allow all methods including OPTIONS
+    allow_headers=["*"],         # allow all headers
 )
+
 # Load model and encoders
 model = tf.keras.models.load_model('diet_model.h5')
 with open('encoders.pkl', 'rb') as f:
