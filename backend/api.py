@@ -6,14 +6,8 @@ import pickle
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-origins = [
-    "http://localhost:3000",    # react
-    "http://localhost:8080",    # vue
-    "http://127.0.0.1:8000",    # default dev
-    "http://localhost:5000",    # flutter web
-    "http://localhost:4200",    # angular
-    "*"                         # temporarily allow all
-]
+origins = ["*"]                      # temporarily allow all
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
