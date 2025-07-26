@@ -1,0 +1,54 @@
+[33mcommit 35ed73ae17b29dca8223a0ff9ea473c89f89aec8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 19:06:51 2025 +0530
+
+    added users.db and updated api.py
+
+[33mcommit 2361bc86122f363ee7d3365b1dd18eb8e952bb8f[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 18:51:16 2025 +0530
+
+    updated result_screen
+
+[33mcommit 6bb07241ec0f09c7477ec011f69072b8b7873d81[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 18:49:49 2025 +0530
+
+    updated login_screen
+
+[33mcommit 9df44945935fc439607ff116442163ab4af4f6c4[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 18:48:06 2025 +0530
+
+    updated main.dart,api_service,signup_screen
+
+[33mcommit 54fe49601b347b60483a6d2aaddb6e5211809115[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 18:34:15 2025 +0530
+
+    updated dataset
+
+[33mcommit e27a0f22f2f09f16f04cf65db53b9ec5cbf770f0[m
+Merge: 4b0520d 010481d
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 18:27:57 2025 +0530
+
+    Merge branch 'main' of https://github.com/allen6996/diet_recommender_prototype
+
+[33mcommit 4b0520d7e7043c4b3ff60b50e6dd8bc3756795b3[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Fri Jul 25 18:25:57 2025 +0530
+
+    updated api.py
+
+[33mcommit 010481dab36f3240ba0307d8cb43c9331c9dc98d[m
+Author: Allen Albert <144606434+allen6996@users.noreply.github.com>
+Date:   Wed Jul 23 22:43:29 2025 +0530
+
+    Create README.md
+
+[33mcommit e1eaf79a57097865f3afb345c856202d2eb2f869[m
+Author: allen6996 <allenalbert2003@gmail.com>
+Date:   Tue Jul 22 22:37:22 2025 +0530
+
+    Initial commit: diet recommendation app with Flutter and FastAPI
